@@ -11,10 +11,10 @@
 </head>
 
 <body>
-  <!-- start navbar -->
-  <div class="container">
+  <!-- header section -->
+  <section class="container">
     <nav class="navbar navbar-expand-lg navbar-light main-nav">
-      <a href="accueil.html"><img src="/img/isere-logo.png" height="50px" alt="Microsoft" class="logo"></a>
+      <a href="accueil.html"><img src="img/isere-logo.png" alt="isère le département" class="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -37,18 +37,13 @@
         </ul>
       </div>
     </nav>
-    <!-- end navbar -->
+    <div class="news-background">
+      <h3 class="diplay-1 font-weight-bold">Actualités</h3>
+    </div>
+  </section>
+  <!-- home page content -->
 
-    <header class="showcase-02">
-      <h3>Lorem, ipsum.</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, quae.</p>
-    </header>
-  </div>
-
-  <div class="container">
-    <p>Hover over the card to see the drop shadow added</p>
-
-
+  <section class="container">
     <div class="card-deck">
       <div class="card">
         <img class="card-img-top" src="/img/rs3.jpg" alt="Card image cap">
@@ -94,18 +89,17 @@
           <p class="card-text"><small class="text-muted">Santé</small></p>
         </div>
       </div>
-
       <div class="card">
         <img class="card-img-top" src="img/mouton.jpeg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Isère : quand les moutons remplacent les tondeuses, à deux pas de l'A43</h5>
-          <p class="card-text">L’Abri : un nouveau lieu d’accueil de jour à Grenoble</h5>
+          <h5 class="card-text">L’Abri : un nouveau lieu d’accueil de jour à Grenoble</h5>
           <p class="card-text">Pendant un mois, douze moutons vont paître dans des parcelles herbeuses sur le site de la
             Socara, la centrale d’achats de l’enseigne E. Leclerc, à Villette-d’Anthon.</p>
           <p class="card-text"><small class="text-muted">Environnement</small></p>
         </div>
       </div>
-      <img class="card-img-top" src="img/abri.jpg" alt="Card image cap">
+      <img class="card-img-top mt-5" src="img/abri.jpg" alt="Card image cap">
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">L’Abri : un nouveau lieu d’accueil de jour à Grenoble</h5>
@@ -116,6 +110,7 @@
         </div>
       </div>
     </div>
+  
     <div class="card-deck">
       <div class="card">
         <img class="card-img-top" src="img/confinement.jpg" alt="Card image cap">
@@ -150,18 +145,20 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <script src="/js/main.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      offset: 400,
-      duration: 1000
-    });
-  </script>
+  <!-- js library section -->
+
+    <script src="/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000
+      });
+    </script>
 </body>
 
 </html>
